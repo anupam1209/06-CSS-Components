@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Ominifood Hero Section</title>
+    <style>
+        /* reset  */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        html {
+            font-family: 'Rubik', sans-serif;
+            color: #444444;
+        }
+
+        .container {
+            margin: 0 auto;
+            width: 1200px;
+            /* border: 1px solid black; */
+        }
+
+        nav {
+            font-size: 20px;
+            font-weight: 700;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 32px;
+            /* border: 1px solid black; */
+        }
+
+        .header-container {
+            width: 1200px;
+            position: absolute;
+
+            /* in realation to parent element */
+            left: 50%;
+            top: 50%;
+
+            /* in relation to element size  */
+            transform: translate(-50%, -50%);
+
+            /* border: 1px solid black; */
+        }
+
+        .header-container-inner{
+            width: 50%;
+            /* border: 1px solid black; */
+        }
+
+        header {
+            background-color: #f1f3f5;
+            height: 100vh;
+
+            position: relative;
+            background-image: linear-gradient(rgba(34, 34, 34, 0.6),rgba(34, 34, 34, 0.6)), url(hero.jpg);
+            background-size: cover;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 52px;
+            margin-bottom: 32px;
+            line-height: 1.05;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.6;
+            margin-bottom: 48px;
+        }
+
+        .btn:link,
+        .btn:visited {
+            font-size: 20px;
+            font-weight: 600;
+            background-color: #e67e22;
+            color: #fff;
+            text-decoration: none;
+            display: inline-block;
+            padding: 16px 32px;
+            border-radius: 9px;
+        }
+
+        h2 {
+            font-size: 44px;
+            margin-bottom: 48px;
+        }
+
+        section {
+            padding: 96px 0;
+            background-color: #f7f7f7f7;
+            /* border: 1px solid black; */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- this header section will be covering the whole viewport  -->
+    <header>
+        <!-- navigation bar -->
+        <nav class="container">
+            <div>LOGO</div>
+            <div>NAVIGAION</div>
+        </nav>
+        <!-- content to be written in header  -->
+        <div class="header-container">
+            <div class="header-container-inner">
+                <h1>A healthy food delivered to your home, <br> every single day</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque repudiandae soluta et, nostrum maxime
+                    veritatis vero, consectetur assumenda corrupti autem facere asperiores enim? Nulla debitis
+                    consequatur
+                    rerum cumque facilis modi?
+                </p>
+            </div>
+            <!-- links  -->
+            <a href="#" class="btn">Order Now</a>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>Some random heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente cupiditate nulla illo similique
+                reprehenderit voluptatum ipsam aliquid. Voluptate sed, quibusdam veritatis natus dolorem sequi ratione
+                aliquid, quam excepturi commodi explicabo.
+                Ipsam soluta inventore, laudantium ipsa culpa, veniam itaque consequatur quisquam dolore libero, commodi
+                aperiam magnam corporis nam sapiente veritatis! Praesentium eligendi delectus modi quis dolores,
+                provident fugiat quas. Quisquam, reprehenderit?
+            </p>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
